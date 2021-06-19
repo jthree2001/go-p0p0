@@ -1,4 +1,4 @@
-package example
+package p0p0
 
 import (
   "fmt"
@@ -7,7 +7,7 @@ import (
 )
 
 func hello(command *bot.Cmd) (msg string, err error) {
-	msg = fmt.Sprintf(":holdup: Hello ccivilian %s :holdup:", command.User.RealName)
+	msg = fmt.Sprintf(":holdup: Hello civilian %s :holdup:", command.User.RealName)
 	return
 }
 
